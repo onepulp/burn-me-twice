@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-label="Burn Me Twice four-chile fire salsa jar">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5a2b"/>
+      <stop offset="1" stop-color="#4e3016"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.18"/>
+    </linearGradient>
+    <radialGradient id="salsa" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff5a3c"/>
+      <stop offset="0.6" stop-color="#d92b1a"/>
+      <stop offset="1" stop-color="#8f1105"/>
+    </radialGradient>
+    <radialGradient id="shade" cx="0.5" cy="0.25" r="0.8">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Dark wooden countertop backdrop -->
+  <rect x="0" y="0" width="600" height="800" fill="url(#bg)"/>
+  <rect x="0" y="690" width="600" height="110" fill="#2e1b0e"/>
+  <ellipse cx="300" cy="690" rx="150" ry="14" fill="#000000" opacity="0.4"/>
+
+  <!-- Lid -->
+  <rect x="230" y="110" width="140" height="52" rx="8" fill="#222222"/>
+  <rect x="222" y="150" width="156" height="20" rx="4" fill="#333333"/>
+
+  <!-- Jar body -->
+  <path d="M248 170 L236 620 Q300 668 364 620 L352 170 Z" fill="#e8e0d0" opacity="0.95"/>
+  <path d="M248 170 L236 620 Q300 668 364 620 L352 170 Z" fill="url(#glass)"/>
+
+  <!-- Salsa visible through glass -->
+  <path d="M254 470 Q300 520 346 470 L340 596 Q300 630 260 596 Z" fill="url(#salsa)"/>
+  <ellipse cx="300" cy="470" rx="43" ry="9" fill="#ffb347" opacity="0.7"/>
+  <ellipse cx="300" cy="470" rx="24" ry="5" fill="#ffd27a" opacity="0.5"/>
+
+  <!-- Label -->
+  <rect x="262" y="360" width="76" height="150" rx="6" fill="#fdf6e3"/>
+  <rect x="262" y="360" width="76" height="6" fill="#ff3b30"/>
+  <text x="300" y="400" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="13" fill="#1a1a1a">BURN</text>
+  <text x="300" y="418" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="13" fill="#1a1a1a">ME</text>
+  <text x="300" y="436" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="13" fill="#1a1a1a">TWICE</text>
+  <text x="300" y="470" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="9" fill="#8f1105">FIRE SALSA</text>
+  <text x="300" y="490" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#2c2c2c">12 FL OZ</text>
+
+  <!-- High-contrast rim shadow -->
+  <path d="M248 170 L236 620 Q300 668 364 620 L352 170 Z" fill="url(#shade)" opacity="0.35"/>
+</svg>
