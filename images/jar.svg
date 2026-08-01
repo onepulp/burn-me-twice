@@ -4,49 +4,58 @@
       <stop offset="0" stop-color="#8b5a2b"/>
       <stop offset="1" stop-color="#4e3016"/>
     </linearGradient>
-    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.25"/>
-      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0.18"/>
-    </linearGradient>
     <radialGradient id="salsa" cx="0.5" cy="0.5" r="0.5">
       <stop offset="0" stop-color="#ff5a3c"/>
       <stop offset="0.6" stop-color="#d92b1a"/>
       <stop offset="1" stop-color="#8f1105"/>
     </radialGradient>
     <radialGradient id="shade" cx="0.5" cy="0.25" r="0.8">
-      <stop offset="0" stop-color="#000000" stop-opacity="0.55"/>
+      <stop offset="0" stop-color="#000000" stop-opacity="0.4"/>
       <stop offset="1" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
-  <!-- Dark wooden countertop backdrop -->
+  <!-- Dark wooden backdrop -->
   <rect x="0" y="0" width="600" height="800" fill="url(#bg)"/>
-  <rect x="0" y="690" width="600" height="110" fill="#2e1b0e"/>
-  <ellipse cx="300" cy="690" rx="150" ry="14" fill="#000000" opacity="0.4"/>
+  <rect x="0" y="490" width="600" height="310" fill="#2e1b0e"/>
+  <ellipse cx="300" cy="490" rx="150" ry="12" fill="#000000" opacity="0.45"/>
 
-  <!-- Lid -->
-  <rect x="230" y="110" width="140" height="52" rx="8" fill="#222222"/>
-  <rect x="222" y="150" width="156" height="20" rx="4" fill="#333333"/>
+  <!-- Contact shadow under jar -->
+  <ellipse cx="300" cy="445" rx="140" ry="10" fill="#000000" opacity="0.35"/>
 
-  <!-- Jar body -->
-  <path d="M248 170 L236 620 Q300 668 364 620 L352 170 Z" fill="#e8e0d0" opacity="0.95"/>
-  <path d="M248 170 L236 620 Q300 668 364 620 L352 170 Z" fill="url(#glass)"/>
+  <!-- Lid (lower) -->
+  <rect x="185" y="150" width="230" height="48" rx="12" fill="#222222"/>
+  <rect x="179" y="188" width="242" height="20" rx="5" fill="#333333"/>
+  <rect x="179" y="194" width="242" height="2.5" fill="#3d3d3d"/>
+  <rect x="179" y="200" width="242" height="2.5" fill="#3d3d3d"/>
 
-  <!-- Salsa visible through glass -->
-  <path d="M254 470 Q300 520 346 470 L340 596 Q300 630 260 596 Z" fill="url(#salsa)"/>
-  <ellipse cx="300" cy="470" rx="43" ry="9" fill="#ffb347" opacity="0.7"/>
-  <ellipse cx="300" cy="470" rx="24" ry="5" fill="#ffd27a" opacity="0.5"/>
+  <!-- Jar mouth rim -->
+  <rect x="194" y="208" width="212" height="7" rx="3" fill="#d8cfbe" opacity="0.6"/>
 
-  <!-- Label -->
-  <rect x="262" y="360" width="76" height="150" rx="6" fill="#fdf6e3"/>
-  <rect x="262" y="360" width="76" height="6" fill="#ff3b30"/>
-  <text x="300" y="400" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="13" fill="#1a1a1a">BURN</text>
-  <text x="300" y="418" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="13" fill="#1a1a1a">ME</text>
-  <text x="300" y="436" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="13" fill="#1a1a1a">TWICE</text>
-  <text x="300" y="470" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="9" fill="#8f1105">FIRE SALSA</text>
-  <text x="300" y="490" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#2c2c2c">12 FL OZ</text>
+  <!-- Jar body: round shoulders, round bottom, straight sides -->
+  <path d="M195 215 L195 245 Q180 253 180 275 L180 400 Q180 445 225 445 L375 445 Q420 445 420 400 L420 275 Q420 253 405 245 L405 215 Z" fill="url(#salsa)"/>
 
-  <!-- High-contrast rim shadow -->
-  <path d="M248 170 L236 620 Q300 668 364 620 L352 170 Z" fill="url(#shade)" opacity="0.35"/>
+  <!-- Chunks -->
+  <ellipse cx="203" cy="225" rx="9" ry="6" fill="#7c0e04" opacity="0.85"/>
+  <ellipse cx="393" cy="235" rx="8" ry="6" fill="#c21f10" opacity="0.85"/>
+  <ellipse cx="300" cy="245" rx="7" ry="5" fill="#8f1105" opacity="0.85"/>
+  <ellipse cx="212" cy="240" rx="5" ry="3.5" fill="#a01306" opacity="0.8"/>
+  <ellipse cx="388" cy="237" rx="5" ry="3.5" fill="#7c0e04" opacity="0.8"/>
+  <ellipse cx="200" cy="301" rx="8" ry="5.5" fill="#7c0e04" opacity="0.85"/>
+  <ellipse cx="196" cy="329" rx="6" ry="4" fill="#c21f10" opacity="0.85"/>
+  <ellipse cx="400" cy="291" rx="7" ry="5" fill="#7c0e04" opacity="0.85"/>
+  <ellipse cx="404" cy="325" rx="5" ry="3.5" fill="#8f1105" opacity="0.85"/>
+  <ellipse cx="300" cy="218" rx="95" ry="5" fill="#ffb347" opacity="0.6"/>
+  <ellipse cx="300" cy="218" rx="52" ry="3" fill="#ffd27a" opacity="0.45"/>
+
+  <!-- Label, at the bottom -->
+  <rect x="233" y="304" width="134" height="92" rx="6" fill="#fdf6e3"/>
+  <rect x="233" y="304" width="134" height="7" fill="#ff3b30"/>
+  <rect x="233" y="389" width="134" height="7" fill="#ff3b30"/>
+  <text x="300" y="337" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="19" fill="#1a1a1a">BURN ME</text>
+  <text x="300" y="359" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="19" fill="#1a1a1a">TWICE</text>
+  <text x="300" y="378" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="10" fill="#8f1105">FIRE SALSA</text>
+
+  <!-- Shade -->
+  <path d="M195 215 L195 245 Q180 253 180 275 L180 400 Q180 445 225 445 L375 445 Q420 445 420 400 L420 275 Q420 253 405 245 L405 215 Z" fill="url(#shade)" opacity="0.15"/>
 </svg>
