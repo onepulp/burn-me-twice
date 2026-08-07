@@ -3,39 +3,155 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Burn Me Twice — Delicious &amp; Devastating</title>
-  <meta name="description" content="Burn Me Twice — small-batch, fire-roasted local salsa. Four-Chile Fire Salsa with roasted jalapeño, árbol, guajillo &amp; pasilla. Delicious &amp; devastating." />
+  <title>Burn Me Twice — Four-Chile Fire Salsa</title>
+  <meta name="description" content="Burn Me Twice — small-batch Four-Chile Fire Salsa. Fire-roasted jalapeño, árbol, guajillo & pasilla. Delicious & devastating. 12 FL OZ, crafted in Maine." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,ital,wght@9..144,0,900;9..144,1,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#">BURN ME TWICE<span>™</span></a>
+      <div class="nav-links">
+        <a href="#ingredients">Chiles</a>
+        <a href="#uses">How to Use</a>
+        <a href="#buy">Where to Buy</a>
+      </div>
+      <a class="nav-cta" href="mailto:hello@onepulp.org">Wholesale / Contact</a>
+      <button class="nav-burger" aria-label="Menu" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button>
+    </div>
+  </nav>
 
   <!-- Hero -->
   <header class="hero">
-    <div class="hero-inner">
-      <h1 class="brand">BURN ME<br />TWICE</h1>
-      <p class="tagline">DELICIOUS &amp; DEVASTATING</p>
-      <p class="callout">Four-Chile Fire Salsa &bull; Roasted Jalapeño, Árbol, Guajillo &amp; Pasilla</p>
-      <a class="cta" href="#buy">Find a Jar Near You</a>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">SMALL BATCH • MAINE • 12 FL OZ</p>
+        <h1 class="display">Burn Me<br><span>Twice</span></h1>
+        <p class="sub">Delicious &amp; Devastating — Four-Chile Fire Salsa built for flavor first, heat that follows.</p>
+        <div class="pills">
+          <span>Fire-Roasted Jalapeño</span><span>Árbol</span><span>Guajillo</span><span>Pasilla</span>
+        </div>
+        <div class="hero-actions">
+          <a class="btn primary" href="#buy">Find a Jar Near You</a>
+          <a class="btn ghost" href="#uses">How to Use →</a>
+        </div>
+        <p class="proof">Small batch • No smoke &amp; mirrors • Just serious salsa</p>
+      </div>
+      <div class="hero-visual">
+        <div class="jar-card">
+          <img src="images/jar.png" alt="Burn Me Twice four-chile fire salsa jar" />
+          <div class="jar-meta">
+            <strong>Four-Chile Fire Salsa</strong><span>12 FL OZ • $9</span>
+          </div>
+        </div>
+        <div class="badge">4.8 ★  200+ jars first run</div>
+      </div>
     </div>
   </header>
 
-  <!-- Product / Story -->
-  <section class="story" id="story">
-    <div class="jar">
-      <img src="images/jar.svg" alt="Burn Me Twice four-chile fire salsa jar" />
+  <!-- Ingredients -->
+  <section class="section" id="ingredients">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Four chiles, one jar.</h2>
+        <p>Fresh fire up front, dried chiles for depth. No filler, no shortcuts.</p>
+      </div>
+      <div class="chile-grid">
+        <article class="chile">
+          <h3>Jalapeño</h3><p class="role">Fire-roasted fresh</p><p>Bright, vegetal heat — charred same day for the front note.</p>
+        </article>
+        <article class="chile">
+          <h3>Árbol</h3><p class="role">Smoky &amp; sharp</p><p>Thin, searing chile that lifts the finish.</p>
+        </article>
+        <article class="chile">
+          <h3>Guajillo</h3><p class="role">Fruity &amp; tangy</p><p>Red-berry depth and natural sweetness.</p>
+        </article>
+        <article class="chile">
+          <h3>Pasilla</h3><p class="role">Earthy &amp; dark</p><p>Dried poblano — cocoa, raisin, lingering smoke.</p>
+        </article>
+      </div>
     </div>
-    <p class="statement">Crafted in small batches using fresh fire-roasted jalapeños and three deep, smoky dried chiles. Built for serious flavor up front&mdash;and an unforgettable finish.</p>
   </section>
 
-  <!-- Footer / Minimal nav -->
-  <footer class="footer" id="buy">
-    <nav class="links">
-      <a href="#buy">Where to Buy</a>
-      <a href="mailto:hello@onepulp.org">Contact / Wholesale</a>
-      <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
-    </nav>
-    <p class="fineprint">Small Batch &bull; Local &bull; 12 FL OZ</p>
-  </footer>
+  <!-- Use Suggestions -->
+  <section class="section uses" id="uses">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Ways to get burned.</h2>
+        <p>Not just chips — this one earns its keep.</p>
+      </div>
+      <div class="uses-grid">
+        <article class="use">
+          <span class="use-icon">🌮</span>
+          <h3>Tacos &amp; Burritos</h3><p>Spoon over carnitas, al pastor, breakfast tacos — the acid cuts fat, the heat lifts.</p>
+        </article>
+        <article class="use">
+          <span class="use-icon">🍳</span>
+          <h3>Eggs</h3><p>Fried, scrambled, or huevos — a teaspoon wakes everything up.</p>
+        </article>
+        <article class="use">
+          <span class="use-icon">🥪</span>
+          <h3>Grilled Cheese &amp; Burgers</h3><p>Spread thin, press hot — smoky chile + melted cheese is unfair.</p>
+        </article>
+        <article class="use">
+          <span class="use-icon">🍹</span>
+          <h3>Bloody Mary</h3><p>1–2 tsp per glass, no hot sauce needed — lime and fire already balanced.</p>
+        </article>
+        <article class="use">
+          <span class="use-icon">🥑</span>
+          <h3>Chips, Dips &amp; Bowls</h3><p>Straight with tortillas, or stir into sour cream / guac for instant depth.</p>
+        </article>
+        <article class="use">
+          <span class="use-icon">🔥</span>
+          <h3>Grill Glaze</h3><p>Brush on chicken or steak last 2 minutes — sugars caramelize, chiles bloom.</p>
+        </article>
+      </div>
+      <p class="uses-note">Heat builds — start with a teaspoon, then go back for more. You know what you signed up for.</p>
+    </div>
+  </section>
 
+  <!-- Where to Buy -->
+  <section class="section buy" id="buy">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Where to Buy</h2>
+        <p>First run is local — more stockists added weekly.</p>
+      </div>
+      <div class="stockists">
+        <article class="stockist">
+          <h3>Rosemont Market</h3><p>Portland • Brighton + Yarmouth</p><a href="https://www.rosemontmarket.com" target="_blank" rel="noopener">Directions →</a>
+        </article>
+        <article class="stockist featured">
+          <h3>Direct / Wholesale</h3><p>Pop-ups, wholesale, bulk</p><a href="mailto:hello@onepulp.org?subject=Wholesale%20Burn%20Me%20Twice">hello@onepulp.org →</a>
+        </article>
+        <article class="stockist">
+          <h3>Instagram</h3><p>Drop dates &amp; restocks</p><a href="https://www.instagram.com/" target="_blank" rel="noopener">@burnmetwice →</a>
+        </article>
+      </div>
+      <div class="buy-cta">
+        <p>Store or restaurant? We do wholesale cases (12).</p>
+        <a class="btn primary" href="mailto:hello@onepulp.org?subject=Wholesale%20inquiry%20—%20Burn%20Me%20Twice">Contact for Wholesale</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="wrap footer-grid">
+      <div>
+        <p class="footer-brand">BURN ME TWICE</p>
+        <p class="fineprint">© 2026 OnePulp LLC • Portland, ME • Small Batch • 12 FL OZ<br>Delicious &amp; Devastating. Please enjoy responsibly — it’s hot.</p>
+      </div>
+      <nav class="footer-links">
+        <a href="#ingredients">Ingredients</a>
+        <a href="#uses">How to Use</a>
+        <a href="mailto:hello@onepulp.org">Contact</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>

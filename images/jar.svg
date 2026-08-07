@@ -1,52 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800" role="img" aria-label="Burn Me Twice four-chile fire salsa jar">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 560" width="380" height="560" role="img" aria-label="Burn Me Twice mason jar">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#8b5a2b"/>
-      <stop offset="1" stop-color="#4e3016"/>
+    <linearGradient id="glassEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="18%" stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="45%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="82%" stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.32"/>
     </linearGradient>
-    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.25"/>
-      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0.18"/>
+    <linearGradient id="salsaFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF6B4A"/>
+      <stop offset="40%" stop-color="#E8302A"/>
+      <stop offset="100%" stop-color="#8B0F0A"/>
     </linearGradient>
-    <radialGradient id="salsa" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#ff5a3c"/>
-      <stop offset="0.6" stop-color="#d92b1a"/>
-      <stop offset="1" stop-color="#8f1105"/>
+    <radialGradient id="highlight" cx="0" cy="0" r="1" gradientTransform="translate(0.2 0.3) scale(0.6)">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="shade" cx="0.5" cy="0.25" r="0.8">
-      <stop offset="0" stop-color="#000000" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
-    </radialGradient>
+    <filter id="lidShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-opacity="0.18"/>
+    </filter>
   </defs>
-
-  <!-- Dark wooden countertop backdrop -->
-  <rect x="0" y="0" width="600" height="800" fill="url(#bg)"/>
-  <rect x="0" y="690" width="600" height="110" fill="#2e1b0e"/>
-  <ellipse cx="300" cy="690" rx="150" ry="14" fill="#000000" opacity="0.4"/>
-
-  <!-- Lid -->
-  <rect x="230" y="110" width="140" height="52" rx="8" fill="#222222"/>
-  <rect x="222" y="150" width="156" height="20" rx="4" fill="#333333"/>
-
-  <!-- Jar body -->
-  <path d="M248 170 L236 620 Q300 668 364 620 L352 170 Z" fill="#e8e0d0" opacity="0.95"/>
-  <path d="M248 170 L236 620 Q300 668 364 620 L352 170 Z" fill="url(#glass)"/>
-
-  <!-- Salsa visible through glass -->
-  <path d="M254 470 Q300 520 346 470 L340 596 Q300 630 260 596 Z" fill="url(#salsa)"/>
-  <ellipse cx="300" cy="470" rx="43" ry="9" fill="#ffb347" opacity="0.7"/>
-  <ellipse cx="300" cy="470" rx="24" ry="5" fill="#ffd27a" opacity="0.5"/>
-
-  <!-- Label -->
-  <rect x="262" y="360" width="76" height="150" rx="6" fill="#fdf6e3"/>
-  <rect x="262" y="360" width="76" height="6" fill="#ff3b30"/>
-  <text x="300" y="400" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="13" fill="#1a1a1a">BURN</text>
-  <text x="300" y="418" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="13" fill="#1a1a1a">ME</text>
-  <text x="300" y="436" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="13" fill="#1a1a1a">TWICE</text>
-  <text x="300" y="470" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="9" fill="#8f1105">FIRE SALSA</text>
-  <text x="300" y="490" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="7" fill="#2c2c2c">12 FL OZ</text>
-
-  <!-- High-contrast rim shadow -->
-  <path d="M248 170 L236 620 Q300 668 364 620 L352 170 Z" fill="url(#shade)" opacity="0.35"/>
+  <!-- Ground shadow -->
+  <ellipse cx="190" cy="532" rx="88" ry="13" fill="#0F0F0F" opacity="0.07"/>
+  <!-- Lid - flat disc + screw band -->
+  <g filter="url(#lidShadow)">
+    <!-- Screw band side -->
+    <rect x="108" y="38" width="164" height="36" rx="3" fill="#0F0F0F"/>
+    <!-- Knurl ridges -->
+    <g fill="#1E1E1E" opacity="0.9">
+      <rect x="114" y="44" width="2.2" height="24" rx="1"/><rect x="121" y="44" width="2.2" height="24" rx="1"/><rect x="128" y="44" width="2.2" height="24" rx="1"/><rect x="135" y="44" width="2.2" height="24" rx="1"/><rect x="142" y="44" width="2.2" height="24" rx="1"/><rect x="149" y="44" width="2.2" height="24" rx="1"/><rect x="156" y="44" width="2.2" height="24" rx="1"/><rect x="163" y="44" width="2.2" height="24" rx="1"/><rect x="170" y="44" width="2.2" height="24" rx="1"/><rect x="177" y="44" width="2.2" height="24" rx="1"/><rect x="184" y="44" width="2.2" height="24" rx="1"/><rect x="191" y="44" width="2.2" height="24" rx="1"/><rect x="198" y="44" width="2.2" height="24" rx="1"/><rect x="205" y="44" width="2.2" height="24" rx="1"/><rect x="212" y="44" width="2.2" height="24" rx="1"/><rect x="219" y="44" width="2.2" height="24" rx="1"/><rect x="226" y="44" width="2.2" height="24" rx="1"/><rect x="233" y="44" width="2.2" height="24" rx="1"/><rect x="240" y="44" width="2.2" height="24" rx="1"/><rect x="247" y="44" width="2.2" height="24" rx="1"/><rect x="254" y="44" width="2.2" height="24" rx="1"/><rect x="261" y="44" width="2.2" height="24" rx="1"/>
+    </g>
+    <!-- Lid top disc -->
+    <rect x="112" y="28" width="156" height="14" rx="2" fill="#141414"/>
+    <rect x="112" y="28" width="156" height="14" rx="2" fill="none" stroke="#2A2A2A" stroke-width="1"/>
+  </g>
+  <!-- Jar neck threads -->
+  <rect x="128" y="74" width="124" height="6" rx="1" fill="#F2EEE6" stroke="#EAE6E0" stroke-width="1"/>
+  <rect x="130" y="84" width="120" height="6" rx="1" fill="#F2EEE6" stroke="#EAE6E0" stroke-width="1"/>
+  <rect x="132" y="94" width="116" height="6" rx="1" fill="#F2EEE6" stroke="#EAE6E0" stroke-width="1"/>
+  <!-- Jar body - realistic mason shape -->
+  <path d="M132 100 L132 112 Q132 122 138 126 L148 136 L148 158 L112 168 C106 170 102 176 102 184 L102 476 C102 498 118 514 142 518 L238 518 C262 514 278 498 278 476 L278 184 C278 176 274 170 268 168 L232 158 L232 136 L242 126 Q248 122 248 112 L248 100 Z" fill="#FFFFFF" stroke="#EAE6E0" stroke-width="2.2"/>
+  <!-- Salsa inside - chunky -->
+  <path d="M118 284 L118 472 C118 490 132 504 152 508 L228 508 C248 504 262 490 262 472 L262 284 Q190 304 118 284 Z" fill="url(#salsaFill)"/>
+  <!-- Salsa chunks / seeds -->
+  <g opacity="0.95">
+    <ellipse cx="162" cy="352" rx="9" ry="6" fill="#FFB347"/><ellipse cx="188" cy="372" rx="7" ry="5" fill="#FFD27A"/><ellipse cx="210" cy="348" rx="8" ry="5.5" fill="#FF8A3D"/><ellipse cx="182" cy="408" rx="9" ry="6" fill="#FFB347"/><ellipse cx="216" cy="398" rx="6" ry="4.5" fill="#FFE8A0"/><ellipse cx="172" cy="388" rx="5" ry="3.5" fill="#7ED957" opacity="0.9"/><ellipse cx="202" cy="444" rx="6" ry="4" fill="#FFD27A"/>
+  </g>
+  <!-- Surface sheen -->
+  <ellipse cx="190" cy="292" rx="52" ry="8" fill="#FFD27A" opacity="0.5"/>
+  <!-- Glass highlights -->
+  <path d="M132 100 L132 112 Q132 122 138 126 L148 136 L148 158 L112 168 C106 170 102 176 102 184 L102 340 L118 340 L118 158 L148 148 L148 136 L152 126 Q152 122 152 112 L152 100 Z" fill="url(#glassEdge)" opacity="0.9"/>
+  <path d="M248 100 L248 112 Q248 122 242 126 L232 136 L232 158 L268 168 C274 170 278 176 278 184 L278 340 L262 340 L262 158 L232 148 L232 136 L228 126 Q228 122 228 112 L228 100 Z" fill="#FFFFFF" opacity="0.06"/>
+  <!-- Label - wraps around -->
+  <g filter="url(#lidShadow)">
+    <rect x="104" y="212" width="172" height="118" rx="8" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="1.6"/>
+    <rect x="104" y="212" width="172" height="9" rx="4.5" fill="#FF3B30"/>
+    <text x="190" y="242" text-anchor="middle" font-family="Fraunces, serif" font-weight="900" font-size="16" letter-spacing="0.03em" fill="#0F0F0F">BURN ME</text>
+    <text x="190" y="262" text-anchor="middle" font-family="Fraunces, serif" font-weight="900" font-size="16" letter-spacing="0.03em" fill="#0F0F0F">TWICE</text>
+    <line x1="150" y1="272" x2="230" y2="272" stroke="#FF3B30" stroke-width="1.4"/>
+    <text x="190" y="286" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="7.2" letter-spacing="0.16em" fill="#FF3B30">FOUR-CHILE • FIRE</text>
+    <text x="190" y="298" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="7.2" letter-spacing="0.16em" fill="#FF3B30">SALSA</text>
+    <text x="190" y="318" text-anchor="middle" font-family="Inter, sans-serif" font-weight="600" font-size="6.8" letter-spacing="0.09em" fill="#6B6B6B">12 FL OZ • PORTLAND, ME</text>
+    <text x="190" y="326" text-anchor="middle" font-family="Inter, sans-serif" font-size="5.5" fill="#A8A8A8">SMALL BATCH</text>
+  </g>
+  <!-- Bottom glass thickness -->
+  <ellipse cx="190" cy="510" rx="68" ry="10" fill="#FFFFFF" stroke="#EAE6E0" stroke-width="1.2"/>
+  <ellipse cx="190" cy="510" rx="52" ry="6" fill="#F5F0E6" opacity="0.5"/>
 </svg>

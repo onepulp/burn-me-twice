@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" width="400" height="560" role="img" aria-label="Burn Me Twice placeholder second jar">
+  <defs>
+    <linearGradient id="glassHi2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="22%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="85%" stop-color="#FFFFFF" stop-opacity="0.18"/>
+    </linearGradient>
+    <linearGradient id="salsa2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7ED957"/>
+      <stop offset="55%" stop-color="#2ECC71"/>
+      <stop offset="100%" stop-color="#1A6B3A"/>
+    </linearGradient>
+    <filter id="shadow2" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <ellipse cx="200" cy="528" rx="92" ry="14" fill="#0F0F0F" opacity="0.09"/>
+  <g filter="url(#shadow2)">
+    <rect x="124" y="42" width="152" height="44" rx="9" fill="#0F0F0F"/>
+    <g fill="#1A1A1A">
+      <rect x="128" y="52" width="3" height="24" rx="1.5"/><rect x="135" y="52" width="3" height="24" rx="1.5"/><rect x="142" y="52" width="3" height="24" rx="1.5"/><rect x="149" y="52" width="3" height="24" rx="1.5"/><rect x="156" y="52" width="3" height="24" rx="1.5"/><rect x="163" y="52" width="3" height="24" rx="1.5"/><rect x="170" y="52" width="3" height="24" rx="1.5"/><rect x="177" y="52" width="3" height="24" rx="1.5"/><rect x="184" y="52" width="3" height="24" rx="1.5"/><rect x="191" y="52" width="3" height="24" rx="1.5"/><rect x="198" y="52" width="3" height="24" rx="1.5"/><rect x="205" y="52" width="3" height="24" rx="1.5"/><rect x="212" y="52" width="3" height="24" rx="1.5"/><rect x="219" y="52" width="3" height="24" rx="1.5"/><rect x="226" y="52" width="3" height="24" rx="1.5"/><rect x="233" y="52" width="3" height="24" rx="1.5"/><rect x="240" y="52" width="3" height="24" rx="1.5"/><rect x="247" y="52" width="3" height="24" rx="1.5"/><rect x="254" y="52" width="3" height="24" rx="1.5"/><rect x="261" y="52" width="3" height="24" rx="1.5"/><rect x="268" y="52" width="3" height="24" rx="1.5"/>
+    </g>
+    <rect x="118" y="80" width="164" height="16" rx="3" fill="#262626"/>
+  </g>
+  <path d="M138 96 C138 96 132 120 132 148 L122 448 C122 478 148 506 200 506 C252 506 278 478 278 448 L268 148 C268 120 262 96 262 96 Z" fill="#FFFFFF" stroke="#EAE6E0" stroke-width="2.2"/>
+  <path d="M128 334 C128 334 142 344 200 344 C258 344 272 334 272 334 L266 444 C266 470 250 492 200 492 C150 492 134 470 134 444 Z" fill="url(#salsa2)"/>
+  <path d="M138 96 C138 96 132 120 132 148 L122 448 C122 478 148 506 200 506 C252 506 278 478 278 448 L268 148 C268 120 262 96 262 96 Z" fill="url(#glassHi2)" opacity="0.9"/>
+  <path d="M132 148 C142 142 258 142 268 148" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+  <g filter="url(#shadow2)">
+    <rect x="142" y="224" width="116" height="132" rx="10" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="1.8" stroke-dasharray="6 4"/>
+    <rect x="142" y="224" width="116" height="10" rx="5" fill="#2ECC71"/>
+    <text x="200" y="252" text-anchor="middle" font-family="Fraunces, serif" font-weight="900" font-size="13" letter-spacing="0.04em" fill="#0F0F0F">PLACE</text>
+    <text x="200" y="272" text-anchor="middle" font-family="Fraunces, serif" font-weight="900" font-size="13" letter-spacing="0.04em" fill="#0F0F0F">HOLDER</text>
+    <text x="200" y="290" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="10" letter-spacing="0.08em" fill="#0F0F0F">NO. 2</text>
+    <line x1="172" y1="300" x2="228" y2="300" stroke="#2ECC71" stroke-width="1.2"/>
+    <text x="200" y="316" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="7" letter-spacing="0.16em" fill="#2ECC71">COMING SOON</text>
+    <text x="200" y="340" text-anchor="middle" font-family="Inter, sans-serif" font-weight="600" font-size="7" letter-spacing="0.08em" fill="#6B6B6B">12 FL OZ</text>
+  </g>
+</svg>
